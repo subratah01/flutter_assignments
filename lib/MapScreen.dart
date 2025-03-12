@@ -78,7 +78,7 @@ class _MapScreenState extends State<MapScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Google Maps & Geolocator")),
+      appBar: AppBar(title: Text("Real-Time Location Tracker")),
       body: GoogleMap(
         initialCameraPosition: CameraPosition(
           target: LatLng(37.7749, -122.4194), // Default to San Francisco
