@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_assignment_1/home_screen.dart';
+import 'package:flutter_assignment_1/MapScreen.dart';
 
 void main() {
-  //Api Key for Google Map
-  //AIzaSyC-Uu7Kic0MsR77V1SB_SHhfzHLxCmEZ24
   runApp(const GoogleMapsApp());
 }
 
